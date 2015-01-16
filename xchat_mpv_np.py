@@ -32,7 +32,7 @@ def mpv_np(caller, callee, helper):
     filename = get_property(s, "filename")
     version  = get_property(s, "mpv-version")
 
-    xchat.command("say now playing \x02%s\x0F [%s/%s] in %s" % (filename, time_pos, length, version))
+    xchat.command("me now playing \x02%s\x0F [%s/%s] in %s" % (filename, time_pos, length, version))
     s.close()
     return xchat.EAT_ALL
 
