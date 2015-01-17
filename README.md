@@ -8,10 +8,11 @@ Usage:
 Setup:
 ======
 
-This script uses the mpv [JSON IPC Protocol](http://mpv.io/manual/stable/#json-ipc).
+`xchat_mpv_np.py` uses the mpv [JSON IPC Protocol](http://mpv.io/manual/stable/#json-ipc).
 To enable it, add the following line to `~/.mpv/config`
-
     input-unix-socket=~/.mpv/socket
+
+`xchat_mpv_np_windows.py` works without any setup.
 
 LICENSE
 =======
