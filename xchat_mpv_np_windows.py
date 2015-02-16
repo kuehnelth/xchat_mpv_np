@@ -26,6 +26,8 @@ def foreach_window(hwnd, lParam):
     return True
 
 def mpv_np(caller, callee, helper):
+    global titles
+    titles = []
     EnumWindows(EnumWindowsProc(foreach_window), 0)
 
     if len(titles) > 0:
